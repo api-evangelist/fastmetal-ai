@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fastmetal-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fastmetal.ai/
+FastMetal AI provides an OpenAI‑compatible gateway to over 90 AI models spanning text, image, and video generation. Developers can access a unified API with a single API key, paying per token in yen or US dollars. The platform offers flexible pricing, enterprise plans, and extensive documentation to integrate AI capabilities quickly. FastMetal AI aims to simplify AI adoption across industries by delivering high‑performance, scalable inference through a cloud‑native service.
+
+**Areas:** Company · AI · API · Platform · Cloud
+
+## fastmetal-ai on APIs.io
+
+Everything profiled for fastmetal-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fastmetal-ai/](https://apis.io/providers/fastmetal-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [FastMetal AI API](https://apis.io/apis/fastmetal-ai/fastmetal-ai-api/) — FastMetal AI provides an OpenAI‑compatible API for text, image, and video generation across 90+ models.
+- [fastmetal-ai api API](https://apis.io/apis/fastmetal-ai/api-api/) — fastmetal-ai api API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+- [fastmetal-ai core API](https://apis.io/apis/fastmetal-ai/core-api/) — fastmetal-ai core API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+- [fastmetal-ai All guides API](https://apis.io/apis/fastmetal-ai/guides-api/) — fastmetal-ai All guides API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (12)
+
+The data models the API reads and writes.
+
+- [GetKeyInfoResponse](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-get-key-info-response/)
+- [GetV1ChatCompletionsResponse](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-get-v1-chat-completions-response/)
+- [GetV1VideosJobsIdResponse](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-get-v1-videos-jobs-id-response/)
+- [PostMcpRequest](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-mcp-request/)
+- [PostV1ChatCompletionsRequest](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-v1-chat-completions-request/)
+- [PostV1CompletionsRequest](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-v1-completions-request/)
+- [PostV1DecisionsJev113Request](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-v1-decisions-jev113-request/)
+- [PostV1MessagesCountTokensRequest](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-v1-messages-count-tokens-request/)
+- [PostV1MessagesRequest](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-v1-messages-request/)
+- [PostV1MessagesResponse](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-v1-messages-response/)
+- [PostV1VideosCreateRequest](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-v1-videos-create-request/)
+- [PostV1VideosCreateResponse](https://apis.io/schemas/fastmetal-ai/fastmetal-ai-post-v1-videos-create-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fastmetal Ai Context](https://apis.io/jsonld/fastmetal-ai/fastmetal-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [fastmetal-ai API Rules](https://apis.io/rules/fastmetal-ai/fastmetal-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fastmetal Ai Authentication](https://apis.io/security/fastmetal-ai/fastmetal-ai-authentication/)
+- [Fastmetal Ai Domain Security](https://apis.io/security/fastmetal-ai/fastmetal-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Fastmetal Ai Scopes](https://apis.io/scopes/fastmetal-ai/fastmetal-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fastmetal Ai Plans Pricing](https://apis.io/plans/fastmetal-ai/fastmetal-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Fastmetal Ai Rate Limits](https://apis.io/rate-limits/fastmetal-ai/fastmetal-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fastmetal.ai/)
+- [Documentation](https://fastmetal.ai/docs)
+- [Getting started](https://fastmetal.ai/docs/guides/mcp)
+- [API reference](https://fastmetal.ai/docs/api/overview)
+- [Pricing](https://fastmetal.ai/pricing)
+- [Support](https://fastmetal.ai/contact)
+- [Blog](https://fastmetal.ai/blog)
+- [Terms of service](https://fastmetal.ai/legal/terms)
+- [Status](https://fastmetal.ai/status)
+
+## API Evangelist rating
+
+**Kin Score 49.7** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 54.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 28.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fastmetal-ai/](https://apis.io/providers/fastmetal-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for fastmetal-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fastmetal-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
